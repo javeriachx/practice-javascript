@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APIs</title>
+</head>
+<body>
+    <h1>APIs</h1>
+    <h1>AI ChatBot</h1>
+    <form onsubmit="getResponseFromLLM(); return false;">
+      <div>
+        <label for="userQuery">User Query</label>
+        <input type="text" name="userQuery" id="userQuery" class="userQuery"/>
+      </div>
+      <button type="submit">Get Response from LLM</button>
+      <div class="llm"></div>
+      <div class="tweets_container"></div>
+    </form>
+    <script src="./sports_ai.js"></script>
+</body>
+</html>
